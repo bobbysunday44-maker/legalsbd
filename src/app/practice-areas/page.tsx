@@ -145,7 +145,7 @@ function Overview() {
               multiple areas of law, our teams collaborate seamlessly to deliver
               comprehensive strategies. From boardroom transactions to courtroom
               trials, from patent portfolios to estate plans, our attorneys bring
-              the full weight of the firm's institutional knowledge to bear on
+              the full weight of the firm&apos;s institutional knowledge to bear on
               every engagement.
             </p>
           </AnimatedSection>

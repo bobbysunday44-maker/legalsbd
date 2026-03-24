@@ -265,15 +265,15 @@ export default function AboutPage() {
                 outcomes achieved. From a modest office on lower Broadway, they
                 set out to prove that meticulous preparation, intellectual
                 honesty, and relentless advocacy could outperform the sprawling
-                machinery of New York's largest firms.
+                machinery of New York&apos;s largest firms.
               </p>
 
               <p className="text-base leading-relaxed text-taupe">
                 Within a decade, their approach had attracted a clientele that
                 ranged from emerging technology startups to Fortune 500
-                corporations. The firm's early victories in complex commercial
+                corporations. The firm&apos;s early victories in complex commercial
                 litigation and pioneering corporate restructurings established a
-                reputation that resonated well beyond Manhattan's courtrooms.
+                reputation that resonated well beyond Manhattan&apos;s courtrooms.
                 Opposing counsel learned quickly that Holloway & Whitfield
                 prepared as though every case would go to trial -- and frequently
                 prevailed when it did.
@@ -296,7 +296,7 @@ export default function AboutPage() {
                 we have deepened our expertise, expanded our capabilities, and
                 maintained the intimate, partner-led service model that first
                 distinguished us over forty years ago. Our roots in New York
-                City's legal landscape run deep, but our reach -- through
+                City&apos;s legal landscape run deep, but our reach -- through
                 international trade, cross-border transactions, and federal
                 appellate work -- extends across the globe.
               </p>
@@ -513,7 +513,7 @@ export default function AboutPage() {
               <p className="text-base leading-relaxed text-taupe">
                 Every attorney at the firm dedicates a minimum of 100 pro bono
                 hours annually -- a commitment that far exceeds the New York
-                State Bar's aspirational standard. Our pro bono practice focuses
+                State Bar&apos;s aspirational standard. Our pro bono practice focuses
                 on immigrant rights, housing justice, and criminal justice
                 reform. In the past five years alone, our attorneys have logged
                 over 12,000 pro bono hours, securing asylum for dozens of
