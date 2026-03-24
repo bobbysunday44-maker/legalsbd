@@ -18,10 +18,71 @@ const dmSans = DM_Sans({
   weight: ["300", "400", "500", "600", "700"],
 });
 
+const siteUrl = "https://hollowaywhitfield.com";
+
 export const metadata: Metadata = {
-  title: "Holloway & Whitfield | Distinguished Legal Counsel",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Holloway & Whitfield LLP | Distinguished Legal Counsel",
+    template: "%s | Holloway & Whitfield LLP",
+  },
   description:
-    "Holloway & Whitfield is a premier law firm delivering exceptional legal representation in corporate law, litigation, real estate, intellectual property, and more. Over 40 years of trusted counsel.",
+    "Holloway & Whitfield is a premier New York law firm delivering exceptional legal representation in corporate law, litigation, real estate, intellectual property, employment law, and estate planning. Over 40 years of trusted counsel and $2.8B+ in verdicts and settlements.",
+  keywords: [
+    "law firm",
+    "attorney",
+    "lawyer",
+    "New York law firm",
+    "corporate law",
+    "litigation",
+    "real estate attorney",
+    "intellectual property lawyer",
+    "employment law",
+    "estate planning",
+    "Holloway Whitfield",
+    "legal counsel",
+    "trial attorney",
+    "mergers and acquisitions",
+  ],
+  authors: [{ name: "Holloway & Whitfield LLP" }],
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: siteUrl,
+    siteName: "Holloway & Whitfield LLP",
+    title: "Holloway & Whitfield LLP | Distinguished Legal Counsel",
+    description:
+      "Premier New York law firm with 40+ years of excellence. Corporate law, litigation, real estate, IP, employment, and estate planning. $2.8B+ in verdicts and settlements.",
+    images: [
+      {
+        url: "/images/heroes/hero-office.png",
+        width: 1200,
+        height: 630,
+        alt: "Holloway & Whitfield LLP — Distinguished Legal Counsel",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Holloway & Whitfield LLP | Distinguished Legal Counsel",
+    description:
+      "Premier New York law firm with 40+ years of excellence. $2.8B+ in verdicts and settlements.",
+    images: ["/images/heroes/hero-office.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    canonical: siteUrl,
+  },
 };
 
 export default function RootLayout({
